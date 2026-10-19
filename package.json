@@ -1,0 +1,10 @@
+{
+  "name": "maya-checkout-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Client-server demo that creates PayMongo Checkout Sessions",
+  "scripts": {
+    "start": "NODE_USE_ENV_PROXY=1 node --env-file=.env server.js"
+  },
+  "engines": { "node": ">=20.6" }
+}
